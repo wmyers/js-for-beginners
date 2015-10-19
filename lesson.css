@@ -1,16 +1,22 @@
 
 
-a {
-  cursor: pointer;
-  text-decoration: underline;
-}
 
+h1 {
+  padding-left: 10px;
+}
 .sg-fifty {
   background-color: red;
   color: white;
 }
-.sg-fifty h1 {
-  padding-left: 10px;
+.sg-fifty-inv {
+  background-color: white;
+  color: red;
+}
+
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
 }
 a.sg-fifty {
   padding: 10px;
@@ -19,6 +25,7 @@ a.sg-fifty {
 a:hover.sg-fifty  {
   background-color: #FFCC00;
 }
+
 
 .noselect {
     -webkit-touch-callout: none;
